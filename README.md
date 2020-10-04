@@ -31,7 +31,7 @@ megakeep --file mega.txt
 megakeep -f mega.txt
 ``` 
 
-or if your file is mega.txt in in your currenct directory:  
+or if your file named mega.txt and in your current directory:  
 ```bash
 megakeep
 ``` 
