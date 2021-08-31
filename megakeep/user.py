@@ -1,4 +1,7 @@
+from dataclasses import dataclass
+
+
+@dataclass
 class User:
-    def __init__(self, email, password):
-        self.email = email
-        self.password = password
+    email: str
+    password: str
