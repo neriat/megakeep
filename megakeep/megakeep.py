@@ -38,7 +38,9 @@ def main(file: str, skip_fails: bool) -> None:
         print(str(e))
         raise click.Abort()
 
-    for user in users_progress_bar := tqdm(users):
+    users_progress_bar = tqdm(users)
+
+    for user in users_progress_bar:
         try:
             users_progress_bar.set_description(f"Processing user {user.email}")
             login_user(user)
