@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "megakeep"
+version = "1.1.0"
+description = "Simple CLI to \"touch\" Mega accounts and avoid getting it closed due to inactivity."
+authors = ["neriat"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "8.0.1"
+mega-py = ">=1.0.8,<1.1.0"
+tqdm = "4.62.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
