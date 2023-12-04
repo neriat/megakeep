@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "megakeep"
-version = "1.1.0"
+version = "1.1.2"
 description = "Simple CLI to \"touch\" Mega accounts and avoid getting it closed due to inactivity."
 authors = ["neriat"]
 readme = "README.md"
